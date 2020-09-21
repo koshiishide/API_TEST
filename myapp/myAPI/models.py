@@ -3,5 +3,5 @@ from django.db import models
 
 
 class User(models.Model):
-    name = models.CharField(max_length=32)
-    chat = models.CharField(max_length=32)
+    user_name = models.CharField(max_length=32)
+    text = models.CharField(max_length=32)
